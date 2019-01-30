@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LGH_UserAccountsModelStoreContainer" CdmEntityContainer="LGH_UserAccountsEntities">
+    <EntitySetMapping Name="UserAccounts">
+      <EntityTypeMapping TypeName="LGH_UserAccountsModel.UserAccount">
+        <MappingFragment StoreEntitySet="UserAccounts">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="KarmaPoints" ColumnName="KarmaPoints" />
+          <ScalarProperty Name="FacebookLink" ColumnName="FacebookLink" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
